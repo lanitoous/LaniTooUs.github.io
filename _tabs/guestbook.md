@@ -2,11 +2,8 @@
 layout: page
 title: GUEST
 icon: fas fa-comments
-<<<<<<< Updated upstream
 permalink: /guestbook/
-=======
 permalink: /comments/
->>>>>>> Stashed changes
 comments: true
 order: 5
 ---
@@ -17,7 +14,6 @@ order: 5
 > - 글이 올라가는 데 시간이 오래 걸릴 수 있습니다
 
 
-<<<<<<< Updated upstream
 <form method="POST" action="https://comment-w-guestbook.lanitoous.workers.dev/api/handle/form" class="comment-form">
   <input type="text" name="fields[name]" placeholder="닉네임" required>
   <textarea name="fields[message]" placeholder="메시지를 입력하세요" required></textarea>
@@ -113,12 +109,10 @@ order: 5
   flex-direction: column;
   gap: 1em;
   margin-top: 1.5em;
->>>>>>> Stashed changes
 }
 
 .comment-bubble {
   position: relative;
-<<<<<<< Updated upstream
   max-width: 100%;
   padding: 1rem;
   background: var(--card-bg);
@@ -157,9 +151,8 @@ html[data-theme="dark"] .comment-bubble {
 html[data-theme="dark"] .comment-bubble::after {
   border-color: #333 transparent transparent transparent;
 }
-</style>
-=======
-  max-width: 90%;
+
+  max-width: 100%;
   padding: 1em;
   border-radius: 1em;
   background-color: var(--bubble-bg, #f1f1f1);
@@ -196,7 +189,7 @@ html[data-theme="dark"] .comment-bubble::after {
 
 .comment-bubble {
   background-color: var(--card-bg, #f4f4f4);
-  color:  var(--text-color, #000);
+  color: var(--text-color, #000);
   padding: 1em;
   margin: 1em 0;
   border-radius: 15px;
@@ -221,4 +214,3 @@ html[data-theme="dark"] .comment-bubble::after {
 }
 
 </style>
->>>>>>> Stashed changes
